@@ -136,7 +136,7 @@ export default function SliderView({ sliderOptions }) {
           onSwiper={setSwiper}
           slidesPerView={3}
           spaceBetween={10}
-          initialSlide={2}
+          initialSlide={0}
           pagination={true}
           mousewheel={false}
           keyboard={false}

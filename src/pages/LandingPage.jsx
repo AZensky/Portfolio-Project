@@ -77,7 +77,7 @@ export default function LandingPage() {
         <AboutUs />
       </section>
       <section ref={portfolio}>
-        <Portfolio />
+        <Portfolio handleBackClick={handleBackClick} />
       </section>
       <section ref={blog}>
         <BlogSection />

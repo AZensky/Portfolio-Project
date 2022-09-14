@@ -12,11 +12,13 @@ export default function Card({ card }) {
     <Box
       sx={{
         background: `url(${card.image})`,
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
         width: { xs: "100%", sm: 400 },
         height: 400,
         mx: "auto",
         borderRadius: "20px",
-        objectFit: "cover",
         "&:hover": {
           "& div": {
             display: "flex",

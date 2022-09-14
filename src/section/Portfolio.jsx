@@ -4,7 +4,7 @@ import { portfolio } from "../assets";
 import PortfolioTabs from "../components/PortfolioTab/PortfolioTab";
 import SliderView from "../components/Slider/Slider";
 
-export default function Portfolio() {
+export default function Portfolio({ handleBackClick }) {
   return (
     <Box
       sx={{
@@ -68,6 +68,7 @@ export default function Portfolio() {
                 fontWeight: "bold",
               },
             }}
+            onClick={() => handleBackClick("contact")}
           >
             Contact Me
           </Button>
