@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { Box, TextField, Typography } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import TextareaAutosize from "@mui/material/TextareaAutosize";
 import { Button } from "@mui/material";
 import emailjs from "emailjs-com";
+import { useRef } from "react";
 
 // import { Label } from "@mui/icons-material";
 
@@ -61,14 +62,37 @@ const StyledTextArea = styled(TextareaAutosize)(({ theme }) => ({
 }));
 
 export default function GetInTouchForm() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const form = useRef();
+
   function sendEmail(e) {
     e.preventDefault();
+
+    // emailjs
+    //   .sendForm(
+    //     "service_lcg9bb7",
+    //     "template_hv1i6um",
+    //     e.target,
+    //     "4MGoctA0I91cPnLxG"
+    //   )
+    //   .then(
+    //     (result) => {
+    //       console.log(result.text);
+    //     },
+    //     (error) => {
+    //       console.log(error.text);
+    //     }
+    //   );
+    // e.target.reset();
 
     emailjs
       .sendForm(
         "service_lcg9bb7",
         "template_hv1i6um",
-        e.target,
+        form.current,
         "4MGoctA0I91cPnLxG"
       )
       .then(
@@ -79,10 +103,14 @@ export default function GetInTouchForm() {
           console.log(error.text);
         }
       );
-    e.target.reset();
+
+    setName("");
+    setEmail("");
+    setMessage("");
   }
+
   return (
-    <form onSubmit={sendEmail}>
+    <form ref={form} onSubmit={sendEmail}>
       <Box>
         <Box
           sx={{
@@ -108,6 +136,9 @@ export default function GetInTouchForm() {
                 color: "#fff !important",
                 mt: 1,
               }}
+              required
+              value={name}
+              onChange={(e) => setName(e.target.value)}
             />
           </Box>
           <Box>
@@ -120,11 +151,15 @@ export default function GetInTouchForm() {
               // label="Enter you email"
               fullWidth
               variant="outlined"
+              type="email"
               sx={{
                 background: (theme) => theme.palette.primary.lighter,
                 borderRadius: 1,
                 mt: 1,
               }}
+              required
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
             />
           </Box>
         </Box>
@@ -137,6 +172,10 @@ export default function GetInTouchForm() {
             aria-label="minimum height"
             minRows={6}
             placeholder="Write message..."
+            required
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+            maxLength="1000"
           />
           <Typography
             variant="h6"
@@ -148,7 +187,7 @@ export default function GetInTouchForm() {
               textTransform: "capitalize",
             }}
           >
-            0/500 Words
+            {message.length}/1000 Characters
           </Typography>
         </Box>
 
@@ -160,6 +199,7 @@ export default function GetInTouchForm() {
             py: { xs: 1, md: 1.5 },
           }}
           type="submit"
+          value="Send"
         >
           {" "}
           Submit
