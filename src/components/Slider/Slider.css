@@ -1,0 +1,11 @@
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  margin-right: -10px;
+  /* position: relative; */
+  /* z-index: 9; */
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  /* display: none; */
+}

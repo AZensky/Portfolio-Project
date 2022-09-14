@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "LEMON MILK Pro FTR";
+  src: url("assets/fonts/LEMONMILK-Regular.otf") format("opentype");
+}
+
+body {
+  margin: 0;
+  color: #000;
+  /* font-family: Betatron; */
+  height: 100%;
+  font-family: "LEMON MILK Pro FTR";
+}
