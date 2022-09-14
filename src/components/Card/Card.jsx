@@ -16,6 +16,7 @@ export default function Card({ card }) {
         height: 400,
         mx: "auto",
         borderRadius: "20px",
+        objectFit: "cover",
         "&:hover": {
           "& div": {
             display: "flex",

@@ -1,6 +1,6 @@
 import headerBg from "./images/HeaderBg.png";
 // import appLogo from './images/appLogo.png';
-import appLogo from "./images/appLogo2.jpg";
+import appLogo from "./images/appLogo.jpg";
 
 import aboutVector from "./images/aboutVector.png";
 import david from "./images/david.png";
@@ -21,6 +21,10 @@ import getInTouch from "./images/GetInTouch.png";
 import iPlusCover from "./images/iPlusCover.jpg";
 import jsPromisesCover from "./images/jsPromisesCover.jpg";
 import webSecurityCover from "./images/webSecurityCover.jpg";
+import clCover from "./images/clCover.png";
+import legendhoodCover from "./images/legendhoodCover.png";
+import hackupCover from "./images/hackupCover.png";
+import bbCover from "./images/bbCover.png";
 
 export {
   facebook,
@@ -44,4 +48,8 @@ export {
   iPlusCover,
   jsPromisesCover,
   webSecurityCover,
+  clCover,
+  legendhoodCover,
+  hackupCover,
+  bbCover,
 };

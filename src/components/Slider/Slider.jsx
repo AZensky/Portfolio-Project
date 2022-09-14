@@ -12,35 +12,43 @@ import "swiper/css/scrollbar";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import Card from "../Card/Card";
-import { Ecom, social, Business } from "../../assets";
+import {
+  Ecom,
+  social,
+  Business,
+  clCover,
+  legendhoodCover,
+  hackupCover,
+  bbCover,
+} from "../../assets";
 import "./Slider.css";
 
 const SLIDER_OPTIONS = [
   {
     id: 0,
     title: "Cracking Leetcode",
-    image: Ecom,
+    image: clCover,
     liveLink: "https://cracking-leetcode.herokuapp.com/",
     githubLink: "https://github.com/AZensky/Cracking-Leetcode",
   },
   {
     id: 1,
     title: "Legendhood",
-    image: social,
+    image: legendhoodCover,
     liveLink: "https://robinhood-clone-project.herokuapp.com/",
     githubLink: "https://github.com/AZensky/Legendhood",
   },
   {
     id: 2,
     title: "BudgetBetter ",
-    image: Business,
+    image: bbCover,
     liveLink: "https://budget-better-app.herokuapp.com/",
     githubLink: "https://github.com/jerichomata/BudgetBetter",
   },
   {
     id: 3,
     title: "HackUp",
-    image: Ecom,
+    image: hackupCover,
     liveLink: "https://api-meetup-clone.herokuapp.com/",
     githubLink: "https://github.com/AZensky/HackUp",
   },
