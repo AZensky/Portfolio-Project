@@ -57,6 +57,7 @@ export default function GetInTouchForm() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [successfullySubmitted, setSuccessfullySubmitted] = useState(false);
 
   const form = useRef();
 
@@ -75,11 +76,22 @@ export default function GetInTouchForm() {
     setName("");
     setEmail("");
     setMessage("");
+    setSuccessfullySubmitted(true);
+
+    setTimeout(() => {
+      setSuccessfullySubmitted(false);
+    }, 5000);
   }
 
   return (
     <form ref={form} onSubmit={sendEmail}>
       <Box>
+        {successfullySubmitted && (
+          <Typography variant="h6" sx={{ mt: 0, mb: 2, color: "#39C16C" }}>
+            Message sent successfully! I will get back to you as soon as
+            possible.
+          </Typography>
+        )}
         <Box
           sx={{
             display: "grid",
