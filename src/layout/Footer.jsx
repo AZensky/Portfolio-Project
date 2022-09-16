@@ -1,6 +1,14 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
-import { facebook, github, instagram, linkedIn, medium, twitter,AngelList } from "../assets";
+import {
+  facebook,
+  github,
+  instagram,
+  linkedIn,
+  medium,
+  twitter,
+  AngelList,
+} from "../assets";
 import MuiIconButton from "../components/IconButton";
 
 export default function Footer() {
@@ -13,13 +21,42 @@ export default function Footer() {
           gap: { xs: 0, sm: 3 },
         }}
       >
-        {/* <MuiIconButton title={facebook} /> */}
-        <MuiIconButton title={github} />
-        {/* <MuiIconButton title={instagram} /> */}
-        <MuiIconButton title={linkedIn} />
-        <MuiIconButton title={medium}  />
-        <MuiIconButton title={AngelList} sx={{ width:55 }} />
-        {/* <MuiIconButton title={twitter} /> */}
+        {/* open link in new tab */}
+        <a
+          style={{ display: "flex", alignItems: "center" }}
+          href="https://github.com/AZensky"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <MuiIconButton title={github} />
+        </a>
+
+        <a
+          style={{ display: "flex", alignItems: "center" }}
+          href="https://www.linkedin.com/in/alex-zelinsky/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <MuiIconButton title={linkedIn} />
+        </a>
+
+        <a
+          style={{ display: "flex", alignItems: "center" }}
+          href="https://medium.com/@alexzelinsky124"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <MuiIconButton title={medium} />
+        </a>
+
+        <a
+          style={{ display: "flex", alignItems: "center" }}
+          href="https://angel.co/u/alex-zelinsky-2"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <MuiIconButton title={AngelList} sx={{ width: 55 }} />
+        </a>
       </Box>
       <Typography
         sx={{
