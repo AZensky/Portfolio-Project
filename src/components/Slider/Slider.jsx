@@ -1,51 +1,67 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from "react";
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
-import { Box } from '@mui/material';
-import { Keyboard, Mousewheel, Navigation } from 'swiper';
+import { Box } from "@mui/material";
+import { Keyboard, Mousewheel, Navigation } from "swiper";
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/scrollbar';
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/scrollbar";
 
-import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-import Card from '../Card/Card';
-import { Ecom, social, Business } from '../../assets';
-import './Slider.css';
+import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import Card from "../Card/Card";
+import {
+  Ecom,
+  social,
+  Business,
+  clCover,
+  legendhoodCover,
+  hackupCover,
+  bbCover,
+} from "../../assets";
+import "./Slider.css";
 
 const SLIDER_OPTIONS = [
   {
     id: 0,
-    title: 'Ecommerce Website Wordpress',
-    image: Ecom,
+    title: "Cracking Leetcode",
+    image: clCover,
+    liveLink: "https://cracking-leetcode.herokuapp.com/",
+    githubLink: "https://github.com/AZensky/Cracking-Leetcode",
   },
   {
     id: 1,
-    title: 'Social Media App Mobile',
-    image: social,
+    title: "Legendhood",
+    image: legendhoodCover,
+    liveLink: "https://robinhood-clone-project.herokuapp.com/",
+    githubLink: "https://github.com/AZensky/Legendhood",
   },
   {
     id: 2,
-    title: 'Business Website React Native',
-    image: Business,
+    title: "BudgetBetter ",
+    image: bbCover,
+    liveLink: "https://budget-better-app.herokuapp.com/",
+    githubLink: "https://github.com/jerichomata/BudgetBetter",
   },
   {
     id: 3,
-    title: 'Ecommerce Website Wordpress',
-    image: Ecom,
+    title: "HackUp",
+    image: hackupCover,
+    liveLink: "https://api-meetup-clone.herokuapp.com/",
+    githubLink: "https://github.com/AZensky/HackUp",
   },
-  {
-    id: 4,
-    title: 'Social Media App Mobile',
-    image: social,
-  },
-  {
-    id: 5,
-    title: 'Business Website React Native',
-    image: Business,
-  },
+  // {
+  //   id: 4,
+  //   title: "Social Media App Mobile",
+  //   image: social,
+  // },
+  // {
+  //   id: 5,
+  //   title: "Business Website React Native",
+  //   image: Business,
+  // },
 ];
 export default function SliderView({ sliderOptions }) {
   const [swiper, setSwiper] = useState();
@@ -67,44 +83,47 @@ export default function SliderView({ sliderOptions }) {
       sx={{
         pl: 0,
         mt: 8,
-        textAlign: { xs: '-webkit-center', md: 'left' },
-        '& .swiper-button-disabled': {
-          '& svg': {
-            fill: '#2a2929d6',
+        textAlign: { xs: "-webkit-center", md: "left" },
+        "& .swiper-button-disabled": {
+          "& svg": {
+            fill: "#2a2929d6",
             width: { xs: 20, sm: 40 },
             height: 40,
           },
         },
-        position: 'relative',
-        '& svg': {
-          fill: 'gray',
+        position: "relative",
+        "& svg": {
+          fill: "gray",
           width: { xs: 20, sm: 40 },
           height: 40,
         },
-      }}>
+      }}
+    >
       <Box
         sx={{
           mt: 2,
-          height: 'auto',
-          float: 'left',
+          height: "auto",
+          float: "left",
           my: 22,
           width: { xs: 30, lg: 70 },
-          cursor: 'pointer',
+          cursor: "pointer",
         }}
-        ref={prevRef}>
-        <ArrowBackIosIcon />{' '}
+        ref={prevRef}
+      >
+        <ArrowBackIosIcon />{" "}
       </Box>
       <Box
         sx={{
           mt: 2,
-          height: 'auto',
-          float: 'right',
+          height: "auto",
+          float: "right",
           my: 22,
           width: { xs: 30, lg: 70 },
-          textAlign: 'right',
-          cursor: 'pointer',
+          textAlign: "right",
+          cursor: "pointer",
         }}
-        ref={nextRef}>
+        ref={nextRef}
+      >
         <ArrowForwardIosIcon />
       </Box>
       <Box>
@@ -117,7 +136,7 @@ export default function SliderView({ sliderOptions }) {
           onSwiper={setSwiper}
           slidesPerView={3}
           spaceBetween={10}
-          initialSlide={2}
+          initialSlide={0}
           pagination={true}
           mousewheel={false}
           keyboard={false}
@@ -132,7 +151,8 @@ export default function SliderView({ sliderOptions }) {
               slidesPerView: 3,
             },
           }}
-          className='mySwiper'>
+          className="mySwiper"
+        >
           {SLIDER_OPTIONS?.map((card, idx) => {
             return (
               <Box key={idx}>

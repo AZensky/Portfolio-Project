@@ -1,8 +1,8 @@
-import { Box } from '@mui/material';
-import PropTypes from 'prop-types';
-import { Link as RouterLink } from 'react-router-dom';
+import { Box } from "@mui/material";
+import PropTypes from "prop-types";
+import { Link as RouterLink } from "react-router-dom";
 
-import { appLogo } from '../assets';
+import { appLogo } from "../assets";
 
 // ----------------------------------------------------------------------
 
@@ -12,9 +12,9 @@ Logo.propTypes = {
 
 export default function Logo({ sx }) {
   return (
-    <RouterLink to='/'>
+    <RouterLink to="/">
       <Box
-        component='img'
+        component="img"
         src={appLogo}
         sx={{
           width: {
@@ -30,8 +30,8 @@ export default function Logo({ sx }) {
             xl: 0.8,
           },
           borderRadius: 2,
-          boxShadow: 2,
-          mx: 'auto',
+          // boxShadow: 2,
+          mx: "auto",
           ...sx,
         }}
       />

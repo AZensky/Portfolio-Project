@@ -1,13 +1,13 @@
-import { Box } from '@mui/material';
-import React, { useRef, useState } from 'react';
-import DashboardSidebar from '../layout/DashboardSidebar';
-import Footer from '../layout/Footer';
-import DashboardNavbar from '../layout/Navbar';
-import AboutUs from '../section/About';
-import BlogSection from '../section/BlogSection';
-import GetInTouch from '../section/GetInTouch';
-import HeroSection from '../section/HeroSection';
-import Portfolio from '../section/Portfolio';
+import { Box } from "@mui/material";
+import React, { useRef, useState } from "react";
+import DashboardSidebar from "../layout/DashboardSidebar";
+import Footer from "../layout/Footer";
+import DashboardNavbar from "../layout/Navbar";
+import AboutUs from "../section/About";
+import BlogSection from "../section/BlogSection";
+import GetInTouch from "../section/GetInTouch";
+import HeroSection from "../section/HeroSection";
+import Portfolio from "../section/Portfolio";
 
 export default function LandingPage() {
   const home = useRef();
@@ -15,7 +15,7 @@ export default function LandingPage() {
   const about = useRef();
   const portfolio = useRef();
   const blog = useRef();
-  const [isActive, setIsActive] = useState('home');
+  const [isActive, setIsActive] = useState("home");
   const [open, setOpen] = useState(false);
 
   const handleSideBar = () => {
@@ -24,31 +24,31 @@ export default function LandingPage() {
 
   function handleBackClick(title) {
     switch (title) {
-      case 'home':
-        home.current.scrollIntoView({ behavior: 'smooth' });
-        setIsActive('home');
+      case "home":
+        home.current.scrollIntoView({ behavior: "smooth" });
+        setIsActive("home");
         break;
-      case 'contact':
-        contact.current.scrollIntoView({ behavior: 'smooth' });
-        setIsActive('contact');
+      case "contact":
+        contact.current.scrollIntoView({ behavior: "smooth" });
+        setIsActive("contact");
         break;
-      case 'about':
-        about.current.scrollIntoView({ behavior: 'smooth' });
-        setIsActive('about');
+      case "about":
+        about.current.scrollIntoView({ behavior: "smooth" });
+        setIsActive("about");
 
         break;
-      case 'portfolio':
-        portfolio.current.scrollIntoView({ behavior: 'smooth' });
-        setIsActive('portfolio');
+      case "portfolio":
+        portfolio.current.scrollIntoView({ behavior: "smooth" });
+        setIsActive("portfolio");
 
         break;
-      case 'blog':
-        blog.current.scrollIntoView({ behavior: 'smooth' });
-        setIsActive('blog');
+      case "blog":
+        blog.current.scrollIntoView({ behavior: "smooth" });
+        setIsActive("blog");
 
         break;
       default:
-        blog.current.scrollIntoView({ behavior: 'smooth' });
+        blog.current.scrollIntoView({ behavior: "smooth" });
     }
   }
 
@@ -56,8 +56,13 @@ export default function LandingPage() {
     <Box
       sx={{
         background: (theme) => theme.palette.primary.dark,
-      }}>
-      <DashboardNavbar handleSideBar={handleSideBar} isActive={isActive} handleBackClick={handleBackClick} />
+      }}
+    >
+      <DashboardNavbar
+        handleSideBar={handleSideBar}
+        isActive={isActive}
+        handleBackClick={handleBackClick}
+      />
       <DashboardSidebar
         handleSideBar={handleSideBar}
         open={open}
@@ -65,14 +70,14 @@ export default function LandingPage() {
         handleBackClick={handleBackClick}
       />
       <section ref={home}>
-        <HeroSection />
+        <HeroSection handleBackClick={handleBackClick} />
       </section>
 
       <section ref={about}>
         <AboutUs />
       </section>
       <section ref={portfolio}>
-        <Portfolio />
+        <Portfolio handleBackClick={handleBackClick} />
       </section>
       <section ref={blog}>
         <BlogSection />
