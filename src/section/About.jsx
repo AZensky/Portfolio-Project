@@ -70,18 +70,18 @@ export default function About() {
             />
 
             <Typography variant="h5" sx={{ mt: { xs: 3, md: 4 } }}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-              turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus
-              nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum
-              tellus elit sed risus. Maecenas eget condimentum velit, sit amet
-              feugiat lectus. Class aptent taciti sociosqu ad litora torquent
-              per conubia nostra.{" "}
+              I'm a UC Davis and App Academy graduate. I'm a full-stack
+              developer with a passion for problem-solving. I enjoy building
+              applications that are both beautiful and functional. I'm also a
+              technical writer with a passion for writing about web development
+              principles and the latest trends in the industry.
             </Typography>
 
-            <Typography variant="h5" sx={{ mt: 1.5 }}>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etiam eu
-              turpis molestie, dictum est a, mattis tellus. Sed dignissim
-            </Typography>
+            {/* <Typography variant="h5" sx={{ mt: 1.5 }}>
+              Skills: JavaScript, Python, React, Redux, Node, Express, Flask,
+              SQL, Sequelize, SQLAlchemy, Alembic, Git, Heroku, REST, Firebase,
+              HTML, CSS, Salesforce
+            </Typography> */}
             <Link
               to="/resume.pdf"
               target="_blank"
