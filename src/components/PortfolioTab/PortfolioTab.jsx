@@ -6,7 +6,7 @@ import { Tab } from "@mui/material";
 import { Tabs, Button } from "@mui/material";
 import useTabs from "../../hooks/useTabs";
 import SliderView from "../Slider/Slider";
-import { Business, Ecom, social } from "../../assets";
+import { Business, Ecom } from "../../assets";
 
 // import { TAB_OPTIONS } from './TabsOptions';
 
@@ -19,7 +19,7 @@ const SLIDER_OPTIONS = [
   {
     id: 1,
     title: "Social Media App Mobile",
-    image: social,
+    image: Business,
   },
   {
     id: 2,
@@ -34,7 +34,7 @@ const SLIDER_OPTIONS = [
   {
     id: 4,
     title: "Social Media App Mobile",
-    image: social,
+    image: Business,
   },
   {
     id: 5,

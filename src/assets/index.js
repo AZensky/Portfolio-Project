@@ -3,9 +3,8 @@ import headerBg from "./images/HeaderBg.png";
 import appLogo from "./images/appLogo.jpg";
 
 import aboutVector from "./images/aboutVector.png";
-import david from "./images/david.png";
+import alex from "./images/alex.png";
 import portfolio from "./images/portfolio.png";
-import social from "./images/social.png";
 import Ecom from "./images/Ecom.png";
 import Business from "./images/Business.png";
 import productive from "./images/productive.png";
@@ -28,7 +27,6 @@ import bbCover from "./images/bbCover.png";
 import medium from "./svg/medium.svg";
 import AngelList from "./svg/AngelList.svg";
 
-
 export {
   medium,
   AngelList,
@@ -40,11 +38,10 @@ export {
   headerBg,
   appLogo,
   aboutVector,
-  david,
+  alex,
   portfolio,
   Business,
   Ecom,
-  social,
   productive,
   code,
   creative,
