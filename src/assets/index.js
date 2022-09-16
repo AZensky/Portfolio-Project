@@ -25,8 +25,13 @@ import clCover from "./images/clCover.png";
 import legendhoodCover from "./images/legendhoodCover.png";
 import hackupCover from "./images/hackupCover.png";
 import bbCover from "./images/bbCover.png";
+import medium from "./svg/medium.svg";
+import AngelList from "./svg/AngelList.svg";
+
 
 export {
+  medium,
+  AngelList,
   facebook,
   github,
   instagram,

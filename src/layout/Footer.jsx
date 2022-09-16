@@ -1,6 +1,6 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
-import { facebook, github, instagram, linkedIn, twitter } from "../assets";
+import { facebook, github, instagram, linkedIn, medium, twitter,AngelList } from "../assets";
 import MuiIconButton from "../components/IconButton";
 
 export default function Footer() {
@@ -17,6 +17,8 @@ export default function Footer() {
         <MuiIconButton title={github} />
         {/* <MuiIconButton title={instagram} /> */}
         <MuiIconButton title={linkedIn} />
+        <MuiIconButton title={medium}  />
+        <MuiIconButton title={AngelList} sx={{ width:55 }} />
         {/* <MuiIconButton title={twitter} /> */}
       </Box>
       <Typography

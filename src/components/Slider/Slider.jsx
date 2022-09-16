@@ -30,6 +30,7 @@ const SLIDER_OPTIONS = [
     image: clCover,
     liveLink: "https://cracking-leetcode.herokuapp.com/",
     githubLink: "https://github.com/AZensky/Cracking-Leetcode",
+    techStack:'React-Redux-Flask-SQLAlchemy'
   },
   {
     id: 1,
@@ -37,6 +38,7 @@ const SLIDER_OPTIONS = [
     image: legendhoodCover,
     liveLink: "https://robinhood-clone-project.herokuapp.com/",
     githubLink: "https://github.com/AZensky/Legendhood",
+    techStack:'React-Redux-Flask-SQLAlchemy'
   },
   {
     id: 2,
@@ -44,6 +46,7 @@ const SLIDER_OPTIONS = [
     image: bbCover,
     liveLink: "https://budget-better-app.herokuapp.com/",
     githubLink: "https://github.com/jerichomata/BudgetBetter",
+    techStack:'React-Redux-Flask-SQLAlchemy'
   },
   {
     id: 3,
@@ -51,6 +54,7 @@ const SLIDER_OPTIONS = [
     image: hackupCover,
     liveLink: "https://api-meetup-clone.herokuapp.com/",
     githubLink: "https://github.com/AZensky/HackUp",
+    techStack:'React-Redux-Flask-SQLAlchemy'
   },
   // {
   //   id: 4,
