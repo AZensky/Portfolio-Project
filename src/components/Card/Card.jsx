@@ -109,7 +109,12 @@ export default function Card({ card }) {
           <Typography variant="h4" sx={{ width: 255, fontWeight: "normal" }}>
             {card.title}
           </Typography>
-          <Typography variant="subtitle2" color="grey">
+          <Typography
+            variant="subtitle2"
+            color="#D3D3D3"
+            fontSize="14px"
+            letterSpacing=".5px"
+          >
             {card.techStack}
           </Typography>
         </Stack>
