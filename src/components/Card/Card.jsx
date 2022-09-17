@@ -13,8 +13,8 @@ export default function Card({ card }) {
     <Box
       sx={{
         background: `url(${card.image})`,
-        // backgroundSize: "contain",
-        // backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         width: { xs: "100%", sm: 400 },
         height: 400,
