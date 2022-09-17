@@ -19,6 +19,7 @@ import {
   legendhoodCover,
   hackupCover,
   bbCover,
+  hackFriendsCover,
 } from "../../assets";
 import "./Slider.css";
 
@@ -55,16 +56,14 @@ const SLIDER_OPTIONS = [
     githubLink: "https://github.com/AZensky/HackUp",
     techStack: "React-Redux-Express-Sequelize",
   },
-  // {
-  //   id: 4,
-  //   title: "Social Media App Mobile",
-  //   image: social,
-  // },
-  // {
-  //   id: 5,
-  //   title: "Business Website React Native",
-  //   image: Business,
-  // },
+  {
+    id: 4,
+    title: "Hack Friends",
+    image: hackFriendsCover,
+    liveLink: "https://hack-friends.netlify.app/",
+    githubLink: "https://github.com/AZensky/Hack-Friends",
+    techStack: "React",
+  },
 ];
 export default function SliderView({ sliderOptions }) {
   const [swiper, setSwiper] = useState();
