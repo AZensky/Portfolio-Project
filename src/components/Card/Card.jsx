@@ -13,12 +13,10 @@ export default function Card({ card }) {
     <Box
       sx={{
         background: `url(${card.image})`,
-        backgroundSize: "cover",
+        backgroundSize: "contain",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "bottom",
         width: { xs: "100%", sm: 400 },
-        filter: "blur(0px)",
-        imageRednering: "pixalted",
         height: 400,
         mx: "auto",
         borderRadius: "20px",
