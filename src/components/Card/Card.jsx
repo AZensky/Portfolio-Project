@@ -15,12 +15,11 @@ export default function Card({ card }) {
         background: `url(${card.image})`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
-        backgroundPosition: "bottom",
+        backgroundPosition: "center",
         width: { xs: "100%", sm: 400 },
-        filter: "blur(0px)",
-        imageRednering: "pixalted",
         height: 400,
         mx: "auto",
+        // overflow: "hidden",
         borderRadius: "20px",
         "&:hover": {
           "& div": {
