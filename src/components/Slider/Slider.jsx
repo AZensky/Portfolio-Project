@@ -53,7 +53,7 @@ const SLIDER_OPTIONS = [
     image: hackupCover,
     liveLink: "https://api-meetup-clone.herokuapp.com/",
     githubLink: "https://github.com/AZensky/HackUp",
-    techStack: "React-Redux-Flask-SQLAlchemy",
+    techStack: "React-Redux-Express-Sequelize",
   },
   // {
   //   id: 4,

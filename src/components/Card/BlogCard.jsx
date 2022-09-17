@@ -19,7 +19,7 @@ const BLOG_CARDS = [
     image: iPlusCover,
     subTitle: "JavaScript",
     link: "https://medium.com/javascript-in-plain-english/the-difference-between-i-and-i-in-javascript-8ac109e84741",
-    date: "4, Jul, 2022",
+    date: "Jul 4, 2022",
   },
   {
     id: 1,
@@ -28,6 +28,7 @@ const BLOG_CARDS = [
     desc: "Promises — a new feature that was added to JavaScript in 2015. They are designed to make asynchronous programming easier and more reliable. In this blog post...",
     subTitle: "JavaScript",
     link: "https://medium.com/javascript-in-plain-english/javascript-promises-what-they-are-and-how-to-use-them-fe5b55496271",
+    date: "Jun 6, 2022",
   },
   {
     id: 2,
@@ -36,6 +37,7 @@ const BLOG_CARDS = [
     image: webSecurityCover,
     subTitle: "Web Security",
     link: "https://medium.com/gitconnected/web-security-the-importance-of-hashing-and-salting-passwords-7582f36f9d0e",
+    date: "Jul 17, 2022",
   },
 ];
 
@@ -94,7 +96,7 @@ export default function BlogCard() {
                   variant="h6"
                   sx={{ color: (theme) => theme.palette.primary.main }}
                 >
-                  24 Aug, 2022{" "}
+                  {card.date}
                 </Typography>
 
                 <Typography
