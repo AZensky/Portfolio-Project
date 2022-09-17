@@ -179,6 +179,7 @@ export default function GetInTouchForm() {
             fontSize: { xs: 18, md: 22 },
             width: { xs: 160, md: 200 },
             py: { xs: 1, md: 1.5 },
+            mt: 2,
           }}
           type="submit"
           value="Send"

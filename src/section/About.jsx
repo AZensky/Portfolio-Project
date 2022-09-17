@@ -102,7 +102,13 @@ export default function About() {
             </Link>
           </Box>
 
-          <Box sx={{ maxWidth: 620, width: "100%", justifySelf: "center" }}>
+          <Box
+            sx={{
+              maxWidth: 620,
+              width: "100%",
+              justifySelf: "center",
+            }}
+          >
             <Box component="img" src={alex} />
           </Box>
         </Box>
