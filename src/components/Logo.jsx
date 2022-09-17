@@ -12,7 +12,7 @@ Logo.propTypes = {
 
 export default function Logo({ sx }) {
   return (
-    <RouterLink to="/">
+    <RouterLink to="/" style={{ pointerEvents: "none" }}>
       <Box
         component="img"
         src={appLogo}
@@ -33,7 +33,6 @@ export default function Logo({ sx }) {
           // boxShadow: 2,
           mx: "auto",
           ...sx,
-          cursor: "auto",
         }}
       />
     </RouterLink>
