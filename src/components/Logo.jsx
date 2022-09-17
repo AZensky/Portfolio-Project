@@ -33,6 +33,7 @@ export default function Logo({ sx }) {
           // boxShadow: 2,
           mx: "auto",
           ...sx,
+          cursor: "auto",
         }}
       />
     </RouterLink>
