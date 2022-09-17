@@ -49,7 +49,10 @@ export default function About() {
             </Typography>
             <Typography
               variant="h4"
-              sx={{ color: (theme) => theme.palette.primary.light, my: 1.1 }}
+              sx={{
+                color: (theme) => theme.palette.primary.light,
+                my: 1.1,
+              }}
             >
               Creative{" "}
               <Typography component="span" variant="h4" sx={{ color: "#fff" }}>
@@ -67,7 +70,7 @@ export default function About() {
             <Divider
               sx={{
                 height: "1px",
-                width: "19%",
+                width: { xs: "25%", sm: "15%" },
                 background: (theme) => theme.palette.primary.main,
               }}
             />
