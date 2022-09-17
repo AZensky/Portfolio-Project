@@ -29,7 +29,7 @@ export default function About() {
             <Typography
               variant="h2"
               sx={{
-                letterSpacing: { xs: "0.20em", lg: "0.22em" },
+                letterSpacing: { xs: "0.16em", lg: "0.18em" },
 
                 textTransform: "uppercase",
               }}
@@ -38,7 +38,10 @@ export default function About() {
               <Typography
                 variant="h2"
                 component="span"
-                sx={{ color: (theme) => theme.palette.primary.main }}
+                sx={{
+                  color: (theme) => theme.palette.primary.main,
+                  letterSpacing: { xs: "0.16em", lg: "0.18em" },
+                }}
               >
                 {" "}
                 Zelinsky{" "}
