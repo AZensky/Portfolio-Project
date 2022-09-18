@@ -14,7 +14,7 @@ export default function Card({ card }) {
   return (
     <Box
       sx={{
-        background: `url(${card.image})`,
+        background: `url(${!matches ? card?.smallImage : card.image})`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
