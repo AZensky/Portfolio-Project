@@ -27,6 +27,11 @@ import bbCover from "./images/bbCover.png";
 import medium from "./svg/medium.svg";
 import AngelList from "./svg/AngelList.svg";
 import hackFriendsCover from "./images/hackFriendsCover.png";
+import clSmallCover from "./images/clSmallCover.png";
+import legendSmallCover from "./images/legendSmallCover.png";
+import bbSmallCover from "./images/bbSmallCover.png";
+import hackupSmallCover from "./images/hackupSmallCover.png";
+import hackFriendsSmallCover from "./images/hackFriendsSmallCover.png";
 
 export {
   medium,
@@ -56,4 +61,9 @@ export {
   hackupCover,
   bbCover,
   hackFriendsCover,
+  clSmallCover,
+  legendSmallCover,
+  bbSmallCover,
+  hackupSmallCover,
+  hackFriendsSmallCover,
 };
