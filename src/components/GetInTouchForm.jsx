@@ -106,7 +106,7 @@ export default function GetInTouchForm() {
             </Box>
             <StyledInput
               id="name"
-              placeholder="Enter you name"
+              placeholder="Enter your name"
               name="name"
               fullWidth
               variant="outlined"
@@ -127,7 +127,7 @@ export default function GetInTouchForm() {
             </Box>
             <StyledInput
               id="email"
-              placeholder="Enter you email"
+              placeholder="Enter your email"
               name="email"
               fullWidth
               variant="outlined"
