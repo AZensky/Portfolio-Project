@@ -7,8 +7,10 @@ import { IconButton } from "@mui/material";
 import { Tooltip } from "@mui/material";
 import { Stack } from "@mui/material";
 // import { Ecom } from '../assets';
+import useResponsive from "./../../hooks/useResponsive";
 
 export default function Card({ card }) {
+  const matches = useResponsive("custom", "(min-width:450px)");
   return (
     <Box
       sx={{
@@ -16,7 +18,8 @@ export default function Card({ card }) {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
-        width: { xs: "100%", sm: 400 },
+        width: !matches ? "100%" : 400,
+        // width: { xs: "100%", sm: 400 },
         height: 400,
         mx: "auto",
         // overflow: "hidden",
