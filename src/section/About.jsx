@@ -77,10 +77,11 @@ export default function About() {
 
             <Typography variant="h5" sx={{ mt: { xs: 3, md: 4 } }}>
               I'm a UC Davis and App Academy graduate. I'm a full-stack
-              developer with a passion for problem-solving. I enjoy building
-              applications that are both beautiful and functional. I'm also a
-              technical writer with a passion for writing about web development
-              principles and the latest trends in the industry.
+              developer with a passion for tackling challenging problems through
+              code. I enjoy creating functional, visually appealing applications
+              that provide an excellent user experience. I'm also a technical
+              writer with a passion for writing about web development principles
+              and the latest trends in the industry.
             </Typography>
 
             {/* <Typography variant="h5" sx={{ mt: 1.5 }}>
@@ -91,7 +92,6 @@ export default function About() {
             <Link
               to="/resume.pdf"
               target="_blank"
-              download
               style={{ textDecoration: "none" }}
             >
               <Button
