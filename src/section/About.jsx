@@ -76,12 +76,7 @@ export default function About() {
             />
 
             <Typography variant="h5" sx={{ mt: { xs: 3, md: 4 } }}>
-              I'm a UC Davis and App Academy graduate. I'm a full-stack
-              developer with a passion for tackling challenging problems through
-              code. I enjoy creating functional, visually appealing applications
-              that provide an excellent user experience. I'm also a technical
-              writer with a passion for writing about web development principles
-              and the latest trends in the industry.
+            I’m a full-stack software engineer who turns complex problems into reliable, user-focused web applications.I share my knowledge through clear, practical articles on modern web-development trends, and Dale Carnegie training has honed my ability to communicate technical ideas to any audience. I hold a B.S. in Managerial Economics from UC Davis and am an App Academy graduate.
             </Typography>
 
             {/* <Typography variant="h5" sx={{ mt: 1.5 }}>

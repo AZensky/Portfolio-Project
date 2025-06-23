@@ -68,7 +68,7 @@ export default function Footer() {
           mt: 5.5,
         }}
       >
-        Copyright © 2023 Alex Zelinsky | All Rights Reserved
+        Copyright © 2025 Alex Zelinsky | All Rights Reserved
       </Typography>
     </Box>
   );

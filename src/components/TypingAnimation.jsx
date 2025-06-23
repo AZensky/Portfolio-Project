@@ -5,7 +5,7 @@ export default function TypingAnimation({ content }) {
   return (
     <div>
       <Typed
-        strings={['Software Engineer', 'Web Developer', 'Technical Writer']}
+        strings={['Software Engineer', 'Web Developer', 'Technical Writer', "Sales Engineer"]}
         typeSpeed={40}
         backDelay={1100}
         backSpeed={30}
