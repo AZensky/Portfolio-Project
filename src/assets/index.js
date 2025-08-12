@@ -4,6 +4,7 @@ import appLogo from "./images/appLogo.jpg";
 
 import aboutVector from "./images/aboutVector.png";
 import alex from "./images/alex.png";
+import alex2 from './images/alex2.jpg'
 import portfolio from "./images/portfolio.png";
 import Ecom from "./images/Ecom.png";
 import Business from "./images/Business.png";
@@ -45,6 +46,7 @@ export {
   appLogo,
   aboutVector,
   alex,
+  alex2,
   portfolio,
   Business,
   Ecom,

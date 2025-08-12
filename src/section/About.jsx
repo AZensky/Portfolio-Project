@@ -2,7 +2,7 @@ import { Box, Button, Container, Divider, Typography } from "@mui/material";
 import React from "react";
 import { Link } from "react-router-dom";
 import Typed from "react-typed";
-import { aboutVector, alex } from "../assets";
+import { aboutVector, alex, alex2 } from "../assets";
 
 export default function About() {
   return (
@@ -76,7 +76,7 @@ export default function About() {
             />
 
             <Typography variant="h5" sx={{ mt: { xs: 3, md: 4 } }}>
-            I’m a full-stack software engineer who turns complex problems into reliable, user-focused web applications. I share my knowledge through clear, practical articles on modern web-development trends, and Dale Carnegie training has honed my ability to communicate technical ideas to any audience. I hold a B.S. in Managerial Economics from UC Davis and am an App Academy graduate.
+              I’m a UC Davis graduate and full-stack software engineer who turns complex problems into reliable, user-focused web applications. I share my knowledge through clear, practical articles on modern web-development concepts, and Dale Carnegie training has honed my ability to explain complex technical concepts clearly and concisely.
             </Typography>
 
             {/* <Typography variant="h5" sx={{ mt: 1.5 }}>
@@ -110,7 +110,9 @@ export default function About() {
               justifySelf: "center",
             }}
           >
-            <Box component="img" src={alex} />
+            <Box component="img" src={alex2} sx={{
+              borderRadius: "16px",
+            }} />
           </Box>
         </Box>
       </Container>
