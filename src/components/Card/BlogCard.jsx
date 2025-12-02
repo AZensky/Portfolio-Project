@@ -91,15 +91,15 @@ export default function BlogCard() {
                   },
                 }}
               >
-                <AccessTimeIcon />
+                {/* <AccessTimeIcon />
                 <Typography
                   variant="h6"
                   sx={{ color: (theme) => theme.palette.primary.main }}
                 >
                   {card.date}
-                </Typography>
+                </Typography> */}
 
-                <Typography
+                {/* <Typography
                   variant="h1"
                   sx={{
                     color: "rgba(255, 255, 255, 0.25)",
@@ -112,7 +112,7 @@ export default function BlogCard() {
                 </Typography>
                 <Typography variant="h6" sx={{ textTransform: "capitalize" }}>
                   {card.subTitle}
-                </Typography>
+                </Typography> */}
               </Box>
 
               <Typography
