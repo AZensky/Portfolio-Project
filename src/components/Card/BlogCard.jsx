@@ -25,7 +25,7 @@ const BLOG_CARDS = [
     id: 1,
     title: "JavaScript Promises: What They Are and How to Use Them",
     image: jsPromisesCover,
-    desc: "Promises — a new feature that was added to JavaScript in 2015. They are designed to make asynchronous programming easier and more reliable. In this blog post...",
+    desc: "Promises, a new feature that was added to JavaScript in 2015. They are designed to make asynchronous programming easier and more reliable. In this blog post...",
     subTitle: "JavaScript",
     link: "https://medium.com/javascript-in-plain-english/javascript-promises-what-they-are-and-how-to-use-them-fe5b55496271",
     date: "Jun 6, 2022",
