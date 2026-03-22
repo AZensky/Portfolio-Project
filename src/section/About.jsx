@@ -76,7 +76,7 @@ export default function About() {
             />
 
             <Typography variant="h5" sx={{ mt: { xs: 3, md: 4 } }}>
-              I’m a UC Davis graduate and full-stack software engineer who turns complex problems into reliable, user-focused web applications. I share my knowledge through clear, practical articles on modern web-development concepts, and Dale Carnegie training has honed my ability to explain complex technical concepts clearly and concisely.
+              I am a software engineer with a Master’s in Computer Science. I've develop user-focused web applications and translate complex technical requirements into scalable, high-performance programs. I've completed Dale Carnegie training, which has enhanced my ability to explain technical concepts to both technical and non-technical stakeholders.
             </Typography>
 
             {/* <Typography variant="h5" sx={{ mt: 1.5 }}>
