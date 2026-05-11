@@ -76,7 +76,7 @@ export default function About() {
             />
 
             <Typography variant="h5" sx={{ mt: { xs: 3, md: 4 } }}>
-              I am a software engineer with a Master of Science in Computer Science, specializing in Computing Systems. I develop user-focused web applications and translate complex technical requirements into scalable, high-performance programs. I've completed Dale Carnegie training, which has enhanced my ability to explain technical concepts to both technical and non-technical stakeholders.
+              I am a Solutions Engineer with a Master of Science in Computer Science. I leverage my background to scope requirements, deliver product demos, and translate complex technical concepts into business value. I've completed Dale Carnegie training, which has enhanced my ability to explain technical concepts to both technical and non-technical stakeholders.
             </Typography>
 
             {/* <Typography variant="h5" sx={{ mt: 1.5 }}>

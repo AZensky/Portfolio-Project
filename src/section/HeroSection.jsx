@@ -48,9 +48,9 @@ export default function HeroSection({ handleBackClick }) {
           <Typography component="span" variant="h3" sx={{ color: "#fff" }}>
             <Typed
               strings={[
-                "Software Engineer",
+                "Solutions Engineer",
                 "Sales Engineer",
-                "GRC Analyst",
+                "Software Engineer",
               ]}
               typeSpeed={80}
               backDelay={1100}
