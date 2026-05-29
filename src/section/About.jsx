@@ -84,7 +84,7 @@ export default function About() {
               SQL, Sequelize, SQLAlchemy, Alembic, Git, Heroku, REST, Firebase,
               HTML, CSS, Salesforce
             </Typography> */}
-            <Link
+            {/* <Link
               to="/resume.pdf"
               target="_blank"
               style={{ textDecoration: "none" }}
@@ -100,7 +100,7 @@ export default function About() {
               >
                 Resume
               </Button>
-            </Link>
+            </Link> */}
           </Box>
 
           <Box
