@@ -76,7 +76,7 @@ export default function About() {
             />
 
             <Typography variant="h5" sx={{ mt: { xs: 3, md: 4 } }}>
-                I'm a Revenue Operations and E-Commerce manager with a Master of Science in Computer Science. I use my technical background to optimize digital revenue channels, build cross-functional systems, and turn operational challenges into business outcomes. I've driven $30M+ in annual e-commerce revenue, negotiated strategic partnerships, and worked directly with C-suite on product launches and go-to-market strategy. I'm also a Dale Carnegie Highest Award for Achievement recipient, recognized for communication, leadership, and interpersonal effectiveness.
+              I am a Solutions Engineer with a Master of Science in Computer Science. I leverage my background to scope requirements, deliver product demos, and translate complex technical concepts into business value. I've completed Dale Carnegie training, which has enhanced my ability to explain technical concepts to both technical and non-technical stakeholders.
             </Typography>
 
             {/* <Typography variant="h5" sx={{ mt: 1.5 }}>
