@@ -54,7 +54,7 @@ export default function About() {
                 my: 1.1,
               }}
             >
-              Creative{" "}
+              Analytical{" "}
               <Typography component="span" variant="h4" sx={{ color: "#fff" }}>
                 {/* <Typed
                   strings={["Engineer", "Developer", "Writer"]}
