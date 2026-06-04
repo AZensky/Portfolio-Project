@@ -54,7 +54,7 @@ export default function About() {
                 my: 1.1,
               }}
             >
-              Analytical{" "}
+              Revenue{" "}
               <Typography component="span" variant="h4" sx={{ color: "#fff" }}>
                 {/* <Typed
                   strings={["Engineer", "Developer", "Writer"]}
@@ -63,7 +63,7 @@ export default function About() {
                   backSpeed={60}
                   loop
                 /> */}
-                Developer
+                Operations
               </Typography>
             </Typography>
 
@@ -76,7 +76,7 @@ export default function About() {
             />
 
             <Typography variant="h5" sx={{ mt: { xs: 3, md: 4 } }}>
-              I am a Solutions Engineer with a Master of Science in Computer Science. I leverage my background to scope requirements, deliver product demos, and translate complex technical concepts into business value. I've completed Dale Carnegie training, which has enhanced my ability to explain technical concepts to both technical and non-technical stakeholders.
+              I'm a Sales Operations and E-Commerce professional with a Master's in Computer Science. I build the systems, processes, and reporting infrastructure that help revenue teams operate more effectively. I've managed $30M+ in annual e-commerce revenue, launched integrations driving $15M+ in revenue and $800K+ in ARR, and built sales operations infrastructure including pipeline design, automated workflows, and executive dashboards. I bring a developer's technical depth to every operational decision. I'm also a Dale Carnegie Highest Award for Achievement recipient, recognized for communication and leadership.
             </Typography>
 
             {/* <Typography variant="h5" sx={{ mt: 1.5 }}>
