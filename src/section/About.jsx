@@ -54,7 +54,7 @@ export default function About() {
                 my: 1.1,
               }}
             >
-              Revenue{" "}
+              Analytical{" "}
               <Typography component="span" variant="h4" sx={{ color: "#fff" }}>
                 {/* <Typed
                   strings={["Engineer", "Developer", "Writer"]}
@@ -63,7 +63,7 @@ export default function About() {
                   backSpeed={60}
                   loop
                 /> */}
-                Operations
+                Developer
               </Typography>
             </Typography>
 
@@ -76,7 +76,7 @@ export default function About() {
             />
 
             <Typography variant="h5" sx={{ mt: { xs: 3, md: 4 } }}>
-              I'm a Web Solutions Engineer with a Master's in Computer Science. I've owned product messaging and launch content for hardware and software releases, and run go-to-market campaigns across all digital channels. I've built the systems, processes, and reporting infrastructure that help marketing and revenue teams operate more effectively. I've managed $30M+ in annual e-commerce revenue, launched integrations driving $15M+ in revenue and $800K+ in ARR, and built sales operations infrastructure including pipeline design, automated workflows, and executive dashboards. I bring a developer's technical depth to every operational decision. I'm also a Dale Carnegie Highest Award for Achievement recipient, recognized for communication and leadership.
+             I'm a Web Solutions Engineer with a Master's in Computer Science and a background in GRC, compliance, and information security. I conduct risk assessments, develop security policy frameworks, and manage ongoing regulatory compliance obligations including GDPR and PCI-DSS. I hold CompTIA Security+, ISO 27001 Lead Auditor, and GRC Mastery certifications. My technical engineering background means I understand how the systems I assess actually work, which makes my findings more accurate and my recommendations more practical. I'm also a Dale Carnegie Highest Award for Achievement recipient, recognized for communication and leadership.
             </Typography>
 
             {/* <Typography variant="h5" sx={{ mt: 1.5 }}>

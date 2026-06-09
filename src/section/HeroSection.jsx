@@ -49,8 +49,8 @@ export default function HeroSection({ handleBackClick }) {
             <Typed
               strings={[
                 "Web Solutions Engineer",
-                "Product Marketer",
-                "Sales Operations",
+                "GRC Analyst",
+                "Software Engineer",
               ]}
               typeSpeed={80}
               backDelay={1100}
