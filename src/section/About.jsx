@@ -76,7 +76,7 @@ export default function About() {
             />
 
             <Typography variant="h5" sx={{ mt: { xs: 3, md: 4 } }}>
-             I'm a Web Solutions Engineer with a Master's in Computer Science and a background in GRC, compliance, and information security. I conduct risk assessments, develop security policy frameworks, and manage ongoing regulatory compliance obligations including GDPR and PCI-DSS. I hold CompTIA Security+, ISO 27001 Lead Auditor, and GRC Mastery certifications. My technical engineering background means I understand how the systems I assess actually work, which makes my findings more accurate and my recommendations more practical. I'm also a Dale Carnegie Highest Award for Achievement recipient, recognized for communication and leadership.
+             I'm a Web Solutions Engineer with a Master's in Computer Science and a background in GRC, and information security. I conduct risk assessments, develop security policy frameworks, and manage ongoing regulatory compliance obligations including GDPR and PCI-DSS. I hold CompTIA Security+, ISO 27001 Lead Auditor, and GRC Mastery certifications. My technical engineering background means I understand how the systems I assess actually work, which makes my findings more accurate and my recommendations more practical. I'm also a Dale Carnegie Highest Award for Achievement recipient, recognized for communication and leadership.
             </Typography>
 
             {/* <Typography variant="h5" sx={{ mt: 1.5 }}>
