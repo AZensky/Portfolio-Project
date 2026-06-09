@@ -76,7 +76,7 @@ export default function About() {
             />
 
             <Typography variant="h5" sx={{ mt: { xs: 3, md: 4 } }}>
-              I'm a Sales Operations and E-Commerce professional with a Master's in Computer Science. I build the systems, processes, and reporting infrastructure that help revenue teams operate more effectively. I've managed $30M+ in annual e-commerce revenue, launched integrations driving $15M+ in revenue and $800K+ in ARR, and built sales operations infrastructure including pipeline design, automated workflows, and executive dashboards. I bring a developer's technical depth to every operational decision. I'm also a Dale Carnegie Highest Award for Achievement recipient, recognized for communication and leadership.
+              I'm a Web Solutions Engineer with a Master's in Computer Science. I've owned product messaging and launch content for hardware and software releases, and run go-to-market campaigns across all digital channels. I've built the systems, processes, and reporting infrastructure that help marketing and revenue teams operate more effectively. I've managed $30M+ in annual e-commerce revenue, launched integrations driving $15M+ in revenue and $800K+ in ARR, and built sales operations infrastructure including pipeline design, automated workflows, and executive dashboards. I bring a developer's technical depth to every operational decision. I'm also a Dale Carnegie Highest Award for Achievement recipient, recognized for communication and leadership.
             </Typography>
 
             {/* <Typography variant="h5" sx={{ mt: 1.5 }}>
